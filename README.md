@@ -1,4 +1,7 @@
 ![header](header.png)
+
+<div style="font-family: Consolas, monospace;">
+
 ### A passionate postgraduate student from Wuhan, China
 
 - 🔭 I’m currently pursuing my master's degree at the [Wuhan University](https://www.whu.edu.cn/)
@@ -22,12 +25,11 @@
 
 <!-- <p style="width:100%"><img align="left" src="https://github-readme-stats.vercel.app/api?username=FlorianTseng&show_icons=true&theme=dark&locale=en" alt="Anthony Wang's GitHub stars" /></p> -->
 
-<p style="width:100%"><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=FlorianTseng&show_icons=true&locale=en&theme=dark&hide=jupyter%20notebook" alt="Most-used programming languages by Anthony Wang" /></p>
-
-<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FlorianTseng&layout=compact&hide=css,html) -->
+<p style="width:100%">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=FlorianTseng&show_icons=true&locale=en&theme=dark&hide=jupyter%20notebook" alt="Most-used programming languages by Anthony Wang" />
+</p>
 
 ![FlorianTseng's github stats](https://github-readme-stats.vercel.app/api?username=FlorianTseng&count_private=true&show_icons=true&theme=onedark)
-
 
 <!--
 - 👯 I’m looking to collaborate on ...
@@ -36,3 +38,5 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+</div>
