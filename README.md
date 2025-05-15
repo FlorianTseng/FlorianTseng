@@ -1,8 +1,6 @@
 ![header](header.png)
 ### A passionate postgraduate student from Wuhan, China
 
-![](https://komarev.com/ghpvc/?username=FlorianTseng&label=Profile+views+(since+June+12,+2023):+&color=brightgreen)
-
 - 🔭 I’m currently pursuing my master's degree at the [Wuhan University](https://www.whu.edu.cn/)
   - Topic keywords: **deep learning**, **uncertainty quantification**, **evolutionary compututation**, and **computational condensed physics**.
 
