@@ -3,6 +3,11 @@
 <div style="font-family: Consolas, monospace;">
 
 ### A passionate postgraduate student from Wuhan, China
+[![Blog](https://img.shields.io/badge/Blog-F0773A?style=flat-square&logo=firefox-browser&logoColor=white)](https://floriantseng.github.io)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4284F3?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=obJPkcYAAAAJ)
+[![Zhihu](https://img.shields.io/badge/Zhihu-1771F6?style=flat-square&logo=zhihu&logoColor=white)](https://www.zhihu.com/people/3-46-77-74)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:florian@whu.edu.cn)
+
 
 - 🔭 I’m currently pursuing my master's degree at the [Wuhan University](https://www.whu.edu.cn/)
   - Topic keywords: **deep learning**, **uncertainty quantification**, **evolutionary compututation**, and **computational condensed physics**.
