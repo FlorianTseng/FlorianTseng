@@ -20,7 +20,7 @@
 
 - ☁️ I also have experience with **cloud computing and HPC**:
   - Jupyter Notebook
-  - High-performance computing at the WHU
+  - High-performance computing platform of the WHU
 
 - 🌱 I’m currently learning **graph neural networks**
 
