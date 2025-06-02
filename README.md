@@ -24,7 +24,7 @@
 
 - 🌱 I’m currently learning **graph neural networks**
 
-- 💬 Feel free to ask me about our latest work.
+- 💬 Feel free to ask me about my latest work.
 
 - 📫 How to reach me: [Email Me](mailto:florian@whu.edu.cn)
 
