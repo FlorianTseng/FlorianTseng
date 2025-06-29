@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:florian@whu.edu.cn)
 
 
-- 🔭 I’m currently pursuing my master's degree at the [Wuhan University](https://www.whu.edu.cn/)
+- 🔭 I’m currently pursuing my master's degree at the [Wuhan University](https://en.whu.edu.cn/).
   - Topic keywords: **deep learning**, **uncertainty quantification**, **evolutionary compututation**, and **computational condensed physics**.
 
 - 🛠 I use the following **Python** tools:
