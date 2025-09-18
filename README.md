@@ -22,7 +22,7 @@
   - Jupyter Notebook
   - High-performance computing platform of the WHU
 
-- 🌱 I’m currently learning **graph neural networks**
+- 🌱 I’m currently learning **Graph Neural Networks** & **Statistical Mechanics of Neural Networks**
 
 - 💬 Feel free to ask me about my latest work.
 
