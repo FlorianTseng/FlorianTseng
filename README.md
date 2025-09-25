@@ -35,7 +35,7 @@
 
 ---
 
-I am a Master's student in the School of Integrated Circuits at [Wuhan University](https://whu.edu.cn/), focusing on the application of artificial intelligence and optimization algorithms in material property prediction and inverse design. My research updates can be viewed on [ResearchGate](https://www.researchgate.net/profile/Yuxuan-Zeng-11?ev=hdr_xprf). In the spirit of open source, I am keen to share the code and data from my research on GitHub. 
+I am a Master's student in the School of Integrated Circuits at [Wuhan University](https://en.whu.edu.cn/), focusing on the application of artificial intelligence and optimization algorithms in material property prediction and inverse design. My research updates can be viewed on [ResearchGate](https://www.researchgate.net/profile/Yuxuan-Zeng-11?ev=hdr_xprf). In the spirit of open source, I am keen to share the code and data from my research on GitHub. 
 
 Beyond my primary work in "computational condensed matter physics," I have recently developed a strong interest in statistical physics and neural computation. I am also applying the research methods I excel in to this field, exploring novel research directions.
 
