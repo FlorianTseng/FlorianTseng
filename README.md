@@ -41,6 +41,7 @@ Beyond my primary work in "computational condensed matter physics," I have recen
 
 If you have questions about my work or are simply interested in it, feel free to [contact me](mailto:florian@whu.edu.cn).
 
+---
 <!-- <p style="width:100%"><img align="left" src="https://github-readme-stats.vercel.app/api?username=FlorianTseng&show_icons=true&theme=dark&locale=en" alt="Anthony Wang's GitHub stars" /></p> -->
 
 <p style="width:100%">
