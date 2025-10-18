@@ -1,4 +1,6 @@
+<!--
 ![header](header.png)
+-->
 
 <div style="font-family: Consolas, monospace;">
 
@@ -9,7 +11,7 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:florian@whu.edu.cn)
 
 <!--
-- 🔭 I’m currently pursuing my master's degree at the [Wuhan University](https://en.whu.edu.cn/).
+- 🔭 I'm currently pursuing my master's degree at the [Wuhan University](https://en.whu.edu.cn/).
   - Topic keywords: **deep learning**, **uncertainty quantification**, **evolutionary compututation**, and **computational condensed physics**.
 
 - 🛠 I use the following **Python** tools:
@@ -22,7 +24,7 @@
   - Jupyter Notebook
   - High-performance computing platform of the WHU
 
-- 🌱 I’m currently learning **Graph Neural Networks** & **Statistical Mechanics of Neural Networks**
+- 🌱 I'm currently learning **Graph Neural Networks** & **Statistical Mechanics of Neural Networks**
 
 - 💬 Feel free to ask me about my latest work.
 
@@ -51,8 +53,8 @@ If you have questions about my work or are simply interested in it, feel free to
 ![FlorianTseng's github stats](https://github-readme-stats.vercel.app/api?username=FlorianTseng&count_private=true&show_icons=true&theme=onedark)
 
 <!--
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+- 👯 I'm looking to collaborate on ...
+- 🤔 I'm looking for help with ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
