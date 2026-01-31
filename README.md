@@ -5,7 +5,7 @@
 <div style="font-family: Consolas, monospace;">
 
 <!--
-### A postgraduate student from Wuhan, China
+## A postgraduate student from Wuhan, China
 -->
 ### Hi, I am a postgraduate student from Wuhan, PR China.
 [![Blog](https://img.shields.io/badge/Blog-F0773A?style=flat-square&logo=firefox-browser&logoColor=white)](https://floriantseng.github.io)
@@ -38,7 +38,7 @@
 
 如果你对我的研究有不解之处，或者仅仅是感兴趣，欢迎[通过邮件联系我](mailto:florian@whu.edu.cn)。
 
-## 我正在寻找合适的博士导师！
+### 我正在寻找合适的博士导师！如果您认可我的研究方向与工作内容，欢迎您来联系我！
 
 ---
 
