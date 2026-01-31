@@ -38,6 +38,8 @@
 
 如果你对我的研究有不解之处，或者仅仅是感兴趣，欢迎[通过邮件联系我](mailto:florian@whu.edu.cn)。
 
+## 我正在寻找合适的博士导师！
+
 ---
 
 I am a Master's student in the School of Integrated Circuits (The Institute of Technological Sciences) at [Wuhan University](https://en.whu.edu.cn/), focusing on the application of artificial intelligence and optimization algorithms in material property prediction and inverse design. My research updates can be viewed on [ResearchGate](https://www.researchgate.net/profile/Yuxuan-Zeng-11?ev=hdr_xprf). In the spirit of open source, I am keen to share the code and data from my research on GitHub. 
