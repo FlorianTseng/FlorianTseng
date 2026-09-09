@@ -1,0 +1,42 @@
+name: Update Profile
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate Pixel Profile
+        uses: LuciNyan/pixel-profile/action@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-stats?username=FlorianTseng&theme=fuji&dithering=true&include_all_commits=true
+          crt_outputs: |
+            dist/github-stats-crt?username=FlorianTseng&include_all_commits=true
+
+      - name: Generate Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: FlorianTseng
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Publish
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
