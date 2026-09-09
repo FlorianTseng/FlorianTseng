@@ -16,15 +16,6 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate Pixel Profile
-        uses: LuciNyan/pixel-profile/action@main
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          outputs: |
-            dist/github-stats?username=FlorianTseng&theme=fuji&dithering=true&include_all_commits=true
-          crt_outputs: |
-            dist/github-stats-crt?username=FlorianTseng&include_all_commits=true
-
       - name: Generate Contribution Snake
         uses: Platane/snk@v3
         with:
