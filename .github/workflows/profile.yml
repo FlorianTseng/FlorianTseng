@@ -13,9 +13,23 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Pixel Profile
+        run: npm install --prefix .github/pixel-profile --no-package-lock
+
+      - name: Generate Pixel Profile
+        run: node .github/pixel-profile/generate.mjs
+
       - name: Generate Contribution Snake
         uses: Platane/snk@v3
         with:
