@@ -10,9 +10,9 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FlorianTseng/FlorianTseng/output/github-stats.png">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FlorianTseng/FlorianTseng/output/github-stats-crt.png">
-  <img width="100%" alt="Pixel Profile" src="https://raw.githubusercontent.com/FlorianTseng/FlorianTseng/output/github-stats-crt.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FlorianTseng/FlorianTseng/output/github-stats.png?v=20260910">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FlorianTseng/FlorianTseng/output/github-stats-crt.png?v=20260910">
+  <img width="100%" alt="Pixel Profile" src="https://raw.githubusercontent.com/FlorianTseng/FlorianTseng/output/github-stats-crt.png?v=20260910">
 </picture>
 
 <br>
