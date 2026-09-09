@@ -10,9 +10,9 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=FlorianTseng&theme=fuji&dithering=true&include_all_commits=true">
-  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=FlorianTseng&theme=crt&screen_effect=true&include_all_commits=true">
-  <img width="100%" alt="Pixel Profile" src="https://pixel-profile.vercel.app/api/github-stats?username=FlorianTseng&theme=fuji&dithering=true&include_all_commits=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=FlorianTseng&theme=fuji&dithering=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=FlorianTseng&theme=crt">
+  <img width="100%" alt="Pixel Profile" src="https://pixel-profile.vercel.app/api/github-stats?username=FlorianTseng&theme=crt">
 </picture>
 
 <br>
