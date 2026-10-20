@@ -6,6 +6,7 @@ import calendar
 import html
 import json
 import os
+import subprocess
 import urllib.request
 from datetime import date, datetime, timezone
 
@@ -45,7 +46,15 @@ ART = r"""
 # two tokens by design: the Actions GITHUB_TOKEN yields the contribution-style
 # commit count (public + private activity), while a PAT (ACCESS_TOKEN secret)
 # sees private repos for the repo list and LOC walk. Either falls back to the other.
-TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("ACCESS_TOKEN") or ""
+def _gh_cli_token():
+    # local runs have no Actions token; borrow the gh CLI login if present
+    try:
+        return subprocess.run(["gh", "auth", "token"], capture_output=True, text=True).stdout.strip()
+    except OSError:
+        return ""
+
+
+TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("ACCESS_TOKEN") or _gh_cli_token()
 PRIV_TOKEN = os.environ.get("ACCESS_TOKEN") or TOKEN
 
 
