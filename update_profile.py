@@ -15,23 +15,31 @@ JOINED_YEAR = 2023  # account creation year, never changes
 W = 56  # info column width in characters
 
 ART = r"""
-         .=+++#####*=
-      *%@@@@@@@@@@@@@#*.
-    .%@@@@@@@@@@@@@@@@@@=
-   =@@@@@@@@@%@@@@@@@@@@@+
-   %@@@@@@#%*+#*@@@@@@@@@%
-   %@@@@%###++**+@%@%@@@@#
-   #@@%%#****+=+**####%@@=
-   =%@*++***++=++***++#@*
-    +#*+=====+++====++#*=
-     +#++===*++++==++*#=
-     .**++=+++++++++**=
-       +*++**##***+**=
-        +#*+++++++*#+
-       .**%######%#*#*.
-      +%%++#******++#@@+
-  .+*%@@@*++***+++++#@@@@#*+.
-#%@@@@@@@@*++++++++#@@@@@@@@@
+                .=..+*##*##**=
+          .+*#%@@@@@@@@@@@@@@@%+
+        =%@@@@@@@@@@@@@@@@@@@@@@@%+
+       +@@@@@@@@@@@@@@@@@@@@@@@@@@@#.
+      #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=
+     #@@@@@@@@@@@@%#%@@@@@@@@@@@@@@@@@.
+    =@@@@@@@@@@#@#+++%+%@@@@@@@@@@@@@@*
+    +@@@@@@@%%#*@*+*+#*+#@@@@@@@@@@@@@+
+    +@@@@@@%%%*#%+==++%==#@%%%#@@@@@@%
+    .@@@@@%%%#*####*+=+*######%%%@@@@*
+     #@@@#*++***#*+++=++**#*#*++*#@@#
+     =#%@*+++++++++++++++++++++++#%#=
+      *+@*++=======+++++=======+*#**.
+       +#%*++=====+====++====+++*#*.
+        +#*+++====*******===+++*##.
+        .+#*+++==+++++++++++++***.
+          +**+++***#*******++***
+           +***++++*****+++****.
+            =#**+++====+++**##.
+            =*%%#**++++**#%%#*%*
+           #@**#%%%%%%%%%##*+*#@%+
+         +%@@*++*#*+++****++++#@@@#.
+     .+*@@@@@%+++**#***+++++++#@@@@@%#+=.
+ .+*%@@@@@@@@@*+++++*++++++++*@@@@@@@@@@@%#
+@@@@@@@@@@@@@@@*++++++++++++#@@@@@@@@@@@@@@
 """
 
 # two tokens by design: the Actions GITHUB_TOKEN yields the contribution-style
@@ -198,8 +206,14 @@ def render(mode, stats):
         f'font-family="Consolas, Menlo, monospace" font-size="13px">',
         f'<rect x="0.5" y="0.5" width="839" height="499" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
     ]
-    for i, line in enumerate(ART.strip("\n").split("\n")):
-        out.append(f'<text x="25" y="{40 + i * 15}" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>')
+    # art is centred in the left column (25..390): every row padded to one width so
+    # text-anchor=middle lines the grid up whatever font the viewer ends up with
+    art = ART.strip("\n").split("\n")
+    width = max(len(line) for line in art)
+    art = [line.ljust(width) for line in art]
+    y0 = round(253 - 7.5 * (len(art) - 1))  # ink centred on the 500px card
+    for i, line in enumerate(art):
+        out.append(f'<text x="207.5" y="{y0 + i * 15}" text-anchor="middle" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>')
     for i, segs in enumerate(info_lines(stats)):
         if not segs:
             continue
