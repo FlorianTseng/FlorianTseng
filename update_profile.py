@@ -206,14 +206,15 @@ def render(mode, stats):
         f'font-family="Consolas, Menlo, monospace" font-size="13px">',
         f'<rect x="0.5" y="0.5" width="839" height="499" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
     ]
-    # art is centred in the left column (25..390): every row padded to one width so
+    # art is centred in the blank area left of the text column: the box is the card's
+    # left edge to x=390, so the centre is 195. Rows are padded to one width so
     # text-anchor=middle lines the grid up whatever font the viewer ends up with
     art = ART.strip("\n").split("\n")
     width = max(len(line) for line in art)
     art = [line.ljust(width) for line in art]
     y0 = round(253 - 7.5 * (len(art) - 1))  # ink centred on the 500px card
     for i, line in enumerate(art):
-        out.append(f'<text x="207.5" y="{y0 + i * 15}" text-anchor="middle" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>')
+        out.append(f'<text x="195" y="{y0 + i * 15}" text-anchor="middle" fill="{p["art"]}" xml:space="preserve">{html.escape(line)}</text>')
     for i, segs in enumerate(info_lines(stats)):
         if not segs:
             continue
